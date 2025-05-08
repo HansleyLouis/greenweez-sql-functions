@@ -14,7 +14,7 @@ e)delivery_mode.sql
 f)queries\final_nps_analysis.sql
 ## SQL Functions
 `is_mail_be`: returns 1 if a campaign was sent to Belgium(`nlbe`), else 0
-`mai_type`: Categorizes emails into newsletter,abandoned basket,or back in stock
+`mail_type`: Categorizes emails into newsletter,abandoned basket,or back in stock
 `nps`: Classifies customer feedback: detractor(-1),passive(0),promoter(1)
 `transporter_brand`: Extracts delivery brand(Chrono or DPD)
 `delivery_mode`: Identifies if the delivery was at Home or a Pickup point
